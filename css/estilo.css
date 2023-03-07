@@ -1,0 +1,41 @@
+body {
+    padding:0px;
+    border:0px;
+    font-family: 'Roboto';
+    background-color: #fcffd3;
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+  .bgCentro{
+    background-color: #2b3035;
+    padding: 20px;
+  }
+  .bgSide{
+    padding: 20px;
+    color: white;
+    overflow-y:hidden;
+    top: 0px;
+    bottom: 3px;
+  }
+  #nombre{
+    font-size: 2.5rem; 
+  }
+  #quehace{
+    font-size: small;
+  }
+  .txtBlanco{
+    color: #0f0404;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
